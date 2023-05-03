@@ -1,0 +1,50 @@
+# Search
+search: 
+  enable: true
+  service: hexo # google/hexo/algolia/azure/baidu
+  # google 
+  google_api_key:
+  google_engine_id:
+  # algolia
+  algolia_app_id:
+  algolia_api_key:
+  algolia_index_name:
+  # azure
+  azure_service_name:
+  azure_index_name:
+  azure_query_key:
+  # baidu
+  baidu_api_id:
+
+# friends link
+links:
+  - name: 加入QQ群
+    url: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=FdmduCiUJrQFVF_6Cv-uQ3zUCce5Q2PI&authKey=2uuoNTlO8gOTkWdyG%2BwhdJBh01mM7hPQa5cCUkv7WvKBuKYRHC3NekRmhjQlb55%2F&noverify=0&group_code=559482245
+
+# navigation menu
+menu:
+  - name: 主页
+    slug: 主页
+    url: /
+
+
+
+# widgets
+widgets:
+  - about
+  - links
+  - categories
+  - tagcloud
+
+# Less
+less:
+  compress: true
+
+# use url, not username
+social:
+- slug: github
+  url: https://github.com/stkevintan
+- slug: twitter
+  url: https://twitter.com/kevinsfork
+- slug: rss
+	url: /atom.xml
