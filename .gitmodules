@@ -1,0 +1,3 @@
+[submodule "themes/material-flow"]
+	path = themes/material-flow
+	url = https://github.com/stkevintan/hexo-theme-material-flow.git
