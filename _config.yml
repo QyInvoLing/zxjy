@@ -4,8 +4,8 @@
 
 # Site
 title: 朝夕家园
-subtitle: ''
-description: ''
+subtitle: '回舟朝夕待春风'
+description: '朝夕家园是一个不以营利为宗旨和目的，旨在为组织覆盖范围内的工人、快递员等普通社会劳动者子女提供一般义务看护服务的非盈利组织。'
 keywords:
 author: Zhaoxijiayuan
 language: zh-CN
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: material-flow
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
