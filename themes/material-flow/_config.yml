@@ -1,8 +1,8 @@
 # Search
-search: 
+search:
   enable: true
   service: hexo # google/hexo/algolia/azure/baidu
-  # google 
+  # google
   google_api_key:
   google_engine_id:
   # algolia
@@ -26,8 +26,21 @@ menu:
   - name: 主页
     slug: 主页
     url: /
-
-
+  - name: 朝夕新闻
+    slug: 朝夕新闻
+    url: /categories/朝夕新闻/
+  - name: 项目进度
+    slug: 项目进度
+    url: /categories/项目进度/
+  - name: 公示活动
+    slug: 公示活动
+    url: /categories/公示活动/
+  - name: 财务公示
+    slug: 财务公示
+    url: /categories/财务公示/
+  - name: 联系我们
+    slug: 联系我们
+    url: /categories/联系我们/
 
 # widgets
 widgets:
@@ -42,9 +55,9 @@ less:
 
 # use url, not username
 social:
-- slug: github
-  url: https://github.com/stkevintan
-- slug: twitter
-  url: https://twitter.com/kevinsfork
-- slug: rss
-	url: /atom.xml
+  - slug: github
+    url: https://github.com/stkevintan
+  - slug: twitter
+    url: https://twitter.com/kevinsfork
+  - slug: rss
+url: /atom.xml
